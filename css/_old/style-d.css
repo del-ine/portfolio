@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900,100,200);
+
+body{
+  font-family:'Museo Sns W00 Cond_100', sans-serif;
+  font-size:14px;
+  font-weight: 400;
+  overflow-y:scroll;
+  -webkit-font-smoothing: antialiased;
+}
+
+.content .text-intro h1 {
+  font-family:'Museo Sns W00 Cond_500';
+  font-size: 50px;
+  line-height: 50px;
+  text-transform: lowercase;
+  font-weight: 500;
+}
+
+.content .text-intro p {
+  font-family:'Museo Sns W00 Cond_100', sans-serif;
+  font-size: 19px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration:none;
+  -webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in; 
+	border-bottom: none;
+  color: #464C30;
+
+.two-column li {
+  font-size: 19px;
+  line-height: 28px;
+  font-weight: 400;
+  display : list-item;
+  list-style-image : url(../img/puce.gif);
+}
+
+
+a:focus {
+  outline:none;
+}
+
+a:hover {
+  color: #15CEAA;
+}
+
+strong{
+  font-weight:700;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .logo img { 
+      width: 260px;
+    }
+}
+
+.masonry .item img {
+  width: 98%;
+  padding: 1%;
+  height: auto;
+  max-width: 100%;
+}
+.masonry .item.small  {  width: 25%; }
+.masonry .item.medium {  width: 35%; }
+.masonry .item.large  {  width: 40%; }
+
+.menu-index {
+    background: #464c30 !important;
+    border-radius: 50%;
+}
+
+.grid-hover p {
+    font-size: 15px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+h3 {
+  font-size: 22px;
+  color: white;
+  background-color: #464c30;
+  display: inline;
+  letter-spacing: 3px;
+  padding: 0 4px;
+}
+
+.grid-hover h1 {
+  line-height: 30px;
+}
+
+blockquote {
+  font-family:'Museo Sns W00 Cond_100', sans-serif;
+  font-size: 19px;
+  line-height: 28px;
+  font-weight: 600;
+  font-style: italic; 
+  color: #464c30;
+}
+
+.logo {
+  padding-top: 10px;
+}
+
+.footer-margin {
+    line-height: 50px !important;
+}
+
+footer {
+    height: 0px;
+}
+
