@@ -14,15 +14,13 @@ header .logo > a {
 }
 
 .content .text-intro h1 {
-  font-family: 'Noto Sans JP', sans-serif;
-  font-size: 50px;
+  font-size: 64px;
   line-height: 50px;
   text-transform: lowercase;
   font-weight: 400;
 }
 
 .content .text-intro p {
-  font-family: 'Noto Sans JP', sans-serif;
   font-size: 17px;
   line-height: 27px;
   font-weight: 300;
@@ -93,7 +91,7 @@ ul {
 
 li {
   font-weight: 300;
-  list-style-type: none;
+  list-style-type: none !important;
 }
 
 
