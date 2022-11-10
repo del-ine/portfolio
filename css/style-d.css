@@ -39,15 +39,15 @@ a {
 	transition: all 0.2s ease-in; 
 	border-bottom: none;
   color: #464C30;
+}
 
 .two-column li {
   font-size: 19px;
   line-height: 28px;
   font-weight: 300;
-  display : list-item;
-  list-style-image : url(../img/puce.gif);
+  /* display : list-item;
+  list-style-image : url(../img/puce.gif); */
 }
-
 
 a:focus {
   outline:none;
@@ -57,9 +57,8 @@ a:hover {
   color: #15CEAA;
 }
 
-strong{
+strong {
   font-weight:700;
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -104,7 +103,7 @@ h2 {
 
 h3 {
   font-size: 22px;
-  color: red;
+  color: white;
   background-color: #464c30;
   display: inline;
   letter-spacing: 3px;
@@ -135,4 +134,5 @@ blockquote {
 footer {
     height: 0px;
 }
+
 
